@@ -24,7 +24,7 @@ export const ThxLayout = () => {
           href="https://alfa.me/ght"
           block
           view="secondary"
-          onClick={() => window.gtag('event', '5010_wait_var1')}
+          onClick={() => window.gtag('event', '4893_wait_var1')}
         >
           К Альфа-Смарт
         </ButtonMobile>

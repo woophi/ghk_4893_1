@@ -104,7 +104,7 @@ export const App = () => {
   }, []);
 
   const submit = () => {
-    window.gtag('event', '5010_accept_var1');
+    window.gtag('event', '4893_accept_var1');
     setLoading(true);
 
     // LS.setItem(LSKeys.ShowThx, true);
@@ -183,7 +183,7 @@ export const App = () => {
             block
             view="primary"
             onClick={() => {
-              window.gtag('event', '5010_testfree_var1');
+              window.gtag('event', '4893_testfree_var1');
               setStep(1);
             }}
           >
@@ -209,9 +209,9 @@ export const App = () => {
             Альфа-Смарт
           </Typography.TitleResponsive>
           <Typography.Text style={{ margin: '.5rem 0 20px' }} view="primary-medium">
-            Дополнительные привилегии
+            Подписка с опциями
             <br />
-            от Альфа-Инвестиций
+            для инвесторов от 449 ₽ в месяц
           </Typography.Text>
         </div>
 
@@ -236,13 +236,13 @@ export const App = () => {
                 14% на остаток
               </Typography.Text>
               <Typography.Text view="primary-small" color="secondary">
-                При пополнении брокерского счёта / ИИС и остатке от 10 000 ₽
+                При пополнении брокерского счёта или ИИС
               </Typography.Text>
             </div>
 
             <div>
               <Typography.Text tag="p" defaultMargins={false} view="primary-small" weight="bold">
-                Эксклюзивные данные
+                Анализ изменения стоимости портфеля
               </Typography.Text>
               <Typography.Text view="primary-small" color="secondary">
                 Аналитический обзор — раз в месяц, идеи для инвестиций — раз в неделю
