@@ -72,7 +72,7 @@ const data = [
 const dataStep0 = [
   {
     title: '14% на остаток',
-    subtitle: 'При пополнении брокерского счёта / ИИС и остатке от 10 000 ₽',
+    subtitle: 'При пополнении брокерского счёта / ИИС',
     img: money,
   },
   {
@@ -168,7 +168,7 @@ export const App = () => {
 
           <Steps isVerticalAlign interactive={false} className={appSt.stepStyle}>
             <Typography.Text view="component-primary">Подключите подписку Альфа-Смарт</Typography.Text>
-            <Typography.Text view="component-primary">Откройте и пополните брокерский счет или ИИС</Typography.Text>
+            <Typography.Text view="component-primary">Откройте брокерский счет или ИИС</Typography.Text>
             <Typography.Text view="component-primary">
               Дополнительные опции от Альфа-Инвестиций подключатся автоматически
             </Typography.Text>
